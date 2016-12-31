@@ -1,34 +1,22 @@
-# Welcome to Amplified for Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Site settings
-title: Up and coming web dev
-email: swaraj.dhumne@gmail.com
-description: >
-    I'm just a web developer. My goal is to make the process of developing for the web a quick and painless one, as well as one which allows the product to be fast and robust.
-logo: "/assets/images/logo.jpg"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://swarajd.github.io" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+# Setup
+title:               Swaraj Dhumne
+tagline:             'An up and coming web dev'
+description:         "I'm just a web developer. My goal is to make the process of developing for the web a quick and painless one, as well as one which allows the product to be fast and robust."
+url:                 http://swarajd.github.io
+baseurl:             ''
+paginate:            5
 
-name: 'Swaraj dhumne'
-bio: >
-  I am a junior at Virginia Tech studying Computer Science.
-  I have been coding since the 8th grade, and I have been
-  doing web development since my junior year of high school.
-author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
-github_username:  jekyll
+# About/contact
+author:
+  name:              Swaraj Dhumne
+  url:               https://github.com/swarajd/
+  email:             swaraj.dhumne@gmail.com
 
-# Build settings
-markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
-gems:
-  - jekyll-paginate
+# Custom vars
+version:             1.0.0
